@@ -1,0 +1,728 @@
+body{
+    background-image: url("https://i.imgur.com/gKDhm3w.jpg");
+    background-color: black;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow-y: auto;
+    height: 100%;
+}
+
+h2.top{
+    bottom: 0;
+    right: 0;
+    border-radius: 10px;
+    font-family: Arial;
+    color: white; 
+    text-decoration: none;
+    font-weight: normal;
+    text-align: justify;
+    position: fixed;
+    padding: 5px;
+    font-size: 25px;
+    border: 1px solid black;
+    background-color: black;
+    opacity: .5;
+    margin-bottom: 0px;
+    z-index: 2;
+}
+
+h2.top:hover{
+    opacity: 1;
+    z-index: 2;
+}
+a.top:link{
+    color: white;
+    text-decoration: none;
+}
+a.top:visited{
+    color: white;
+    text-decoration: none;
+}
+a.top:hover{
+    color: white;
+}
+
+a.top:active{
+    color: white;
+    text-decoration: none;
+}
+h1{
+    color:white;
+    font-family: Helvetica;
+}
+b.title{
+    font-size: 25px;
+    color: white;
+    font-family: Helvetica;
+}
+b{
+    font-size: 35px;
+    color: white;
+    font-family: Helvetica;
+}
+p{
+    font-size: 20px;
+    color: white;
+    font-family: Helvetica;
+    padding-bottom: 35px;
+    border-radius: 20px;
+    border: 2px solid white;
+    padding: 100px;
+    line-height: 45px;
+    overflow: visible;
+    text-align: left;
+    position: relative;
+    min-height: 100px;
+}
+
+a.sledge:hover{
+    color: #b6b6b6;
+    position: relative;
+}
+a.sledge:hover:after {
+    content: url(https://i.imgur.com/IiB9IXp.jpg);
+    display: block;
+    position: absolute;
+    z-index: 1;
+}
+p.noformat{
+    text-align: left;
+    font-size: 20px;
+    color: White;
+    font-family: Helvetica;
+    padding-bottom: 35px;
+    border-radius: 20px;
+    border: 2px solid white;
+    padding: 20px;
+    line-height: 34px;
+    min-height: 0px;
+}
+p.center{
+    text-align: center;
+    color: White;
+    font-family: Helvetica;
+    border: none;
+    min-height: 0px;
+}
+div{
+    text-align:center;
+}
+div.nav{
+    z-index: -1;
+}
+div.wrap{
+    height: 100%;
+}
+img.p{
+    padding: 10px;
+    z-index: -1;
+    padding-bottom: 200px;
+}
+img{
+    position: relative;
+    margin: auto;
+    display:inline-block;
+}
+a.line:link{
+    color: #b2b2b2;
+    text-decoration: none;
+}
+a.line:visited{
+    color: #999999;
+}
+a.line:hover{
+    color: #b6b6b6;
+    position: relative;
+}
+a.line:active{
+    color: #a0a0a0;
+}
+
+
+
+
+a.logic:hover{
+    color: #b6b6b6;
+    position: relative;
+}
+a.logic:hover:after {
+    content: url(https://i.imgur.com/R76zFcx.jpg);
+    display: block;
+    position: absolute;
+    
+     
+    z-index: 1;
+}
+a.dokcam:hover{
+    color: #b6b6b6;
+    position: relative;
+}
+a.dokcam:hover:after {
+    content: url(https://i.imgur.com/rnbMOYT.jpg);
+    display: block;
+    position: absolute;
+    
+     
+    z-index: 1;
+}
+a.dokhack:hover{
+    color: #b6b6b6;
+    position: relative;
+}
+a.dokhack:hover:after {
+    content: url(https://i.imgur.com/lkPrCWb.jpg);
+    display: block;
+    position: absolute;
+    
+     
+    z-index: 1;
+}
+a.doknotify:hover{
+    color: #b6b6b6;
+    position: relative;
+}
+a.doknotify:hover:after {
+    content: url(https://i.imgur.com/rfeAcTK.jpg);
+    display: block;
+    position: absolute;
+    
+     
+    z-index: 1;
+}
+a.zofgren:hover{
+    color: #b6b6b6;
+    position: relative;
+}
+a.zofgren:hover:after {
+    content: url(https://i.imgur.com/XR28tI2.jpg);
+    display: block;
+    position: absolute;
+    
+     
+    z-index: 1;
+}
+
+a.lifeline:hover{
+    color: #b6b6b6;
+    position: relative;
+}
+a.lifeline:hover:after {
+    content: url(https://i.imgur.com/4PDbOxq.jpg);
+    display: block;
+    position: absolute;
+    
+     
+    z-index: 1;
+}
+a.zofia:hover{
+    color: #b6b6b6;
+    position: relative;
+}
+a.zofia:hover:after {
+    content: url(https://i.imgur.com/U0FpOMp.jpg);
+    display: block;
+    position: absolute;
+    
+     
+    z-index: 1;
+}
+
+a.candela:hover{
+    color: #b6b6b6;
+    position: relative;
+}
+a.candela:hover:after {
+    content: url(https://i.imgur.com/Vhzr2et.jpg);
+    display: block;
+    position: absolute;
+    
+     
+    z-index: 1;
+}
+
+a.cluster:hover{
+    color: #b6b6b6;
+    position: relative;
+}
+a.cluster:hover:after {
+    content: url(https://i.imgur.com/MBue3rw.jpg);
+    display: block;
+    position: absolute;
+    
+     
+    z-index: 1;
+}
+
+a.track:hover{
+    color: #b6b6b6;
+    position: relative;
+}
+a.track:hover:after {
+    content: url(https://i.imgur.com/uzvRhcJ.jpg);
+    display: block;
+    position: absolute;
+    
+     
+    z-index: 1;
+}
+
+a.hibana:hover{
+    color: #b6b6b6;
+    position: relative;
+}
+a.hibana:hover:after {
+    content: url(https://i.imgur.com/6PMo9CC.jpg);
+    display: block;
+    position: absolute;
+    
+     
+    z-index: 1;
+}
+
+a.cap:hover{
+    color: #b6b6b6;
+    position: relative;
+}
+a.cap:hover:after {
+    content: url(https://i.imgur.com/ff0F2FX.jpg);
+    display: block;
+    position: absolute;
+    
+     
+    z-index: 1;
+}
+
+a.beard:hover{
+    color: #b6b6b6;
+    position: relative;
+}
+a.beard:hover:after {
+    content: url(https://i.imgur.com/sFIEYsv.jpg);
+    display: block;
+    position: absolute;
+    
+    
+    z-index: 1;
+}
+
+a.buck:hover{
+    color: #b6b6b6;
+    position: relative;
+}
+a.buck:hover:after {
+    content: url(https://i.imgur.com/WLExkoI.jpg);
+    display: block;
+    position: absolute;
+    
+    
+    z-index: 1;
+}
+
+a.blitz:hover{
+    color: #b6b6b6;
+    position: relative;
+}
+a.blitz:hover:after {
+    content: url(https://i.imgur.com/vKMrbio.jpg);
+    display: block;
+    position: absolute;
+    
+    
+    z-index: 1;
+}
+
+a.iq:hover{
+    color: #b6b6b6;
+    position: relative;
+}
+a.iq:hover:after {
+    content: url(https://i.imgur.com/qYK1apL.jpg);
+    display: block;
+    position: absolute;
+    
+     
+    z-index: 1;
+}
+
+a.glaz:hover{
+    color: #b6b6b6;
+    position: relative;
+}
+a.glaz:hover:after {
+    content: url(https://i.imgur.com/RFhAoxr.jpg);
+    display: block;
+    position: absolute;
+    
+     
+    z-index: 1;
+}
+
+a.mont:hover{
+    color: #b6b6b6;
+    position: relative;
+}
+a.mont:hover:after {
+    content: url(https://i.imgur.com/zZNbsYr.jpg);
+    display: block;
+    position: absolute;
+    
+     
+    z-index: 1;
+}
+
+a.twitch:hover{
+    color: #b6b6b6;
+    position: relative;
+}
+a.twitch:hover:after {
+    content: url(https://i.imgur.com/teK9wnN.jpg);
+    display: block;
+    position: absolute;
+    
+     
+    z-index: 1;
+}
+
+a.therm:hover{
+    color: #b6b6b6;
+    position: relative;
+}
+a.therm:hover:after {
+    content: url(https://i.imgur.com/A892Dg8.jpg);
+    display: block;
+    position: absolute;
+    
+     
+    z-index: 1;
+}
+
+a.ash:hover{
+    color: #b6b6b6;
+    position: relative;
+}
+a.ash:hover:after {
+    content: url(https://i.imgur.com/0ERvWaB.jpg);
+    display: block;
+    position: absolute;
+    
+     
+    z-index: 1;
+}
+
+a.thatch:hover{
+    color: #b6b6b6;
+    position: relative;
+}
+a.thatch:hover:after {
+    content: url(https://i.imgur.com/Jx9W2h3.jpg);
+    display: block;
+    position: absolute;
+    
+     
+    z-index: 1;
+}
+
+a.drone:hover{
+    color: #b6b6b6;
+    position: relative;
+}
+a.drone:hover:after {
+    content: url(https://i.imgur.com/MPuqkCv.jpg);
+    display: block;
+    position: absolute;
+    
+    
+    z-index: 1;
+}
+
+a.camera:hover{
+    color: #b6b6b6;
+    position: relative;
+}
+a.camera:hover:after {
+    content: url(https://i.imgur.com/8Fm7lmy.jpg);
+    display: block;
+    position: absolute;
+    
+     
+    z-index: 1;
+}
+
+a.frag:hover{
+    color: #b6b6b6;
+    position: relative;
+}
+a.frag:hover:after {
+    content: url(https://i.imgur.com/rd7vqka.jpg);
+    display: block;
+    position: absolute;
+    
+    
+    z-index: 1;
+}
+
+a.breach:hover{
+    color: #b6b6b6;
+    position: relative;
+}
+a.breach:hover:after {
+    content: url(https://i.imgur.com/ep0uFz9.jpg);
+    display: block;
+    position: absolute;
+    
+    
+    z-index: 1;
+}
+
+a.flash:hover{
+    color: #b6b6b6;
+    position: relative;
+}
+a.flash:hover:after {
+    content: url(https://i.imgur.com/rFFlPsn.jpg);
+    display: block;
+    position: absolute;
+    
+     
+    z-index: 1;
+}
+
+a.smoke:hover{
+    color: #b6b6b6;
+    position: relative;
+}
+a.smoke:hover:after {
+    content: url(https://i.imgur.com/NFoj3lp.jpg);
+    display: block;
+    position: absolute;
+    
+     
+    z-index: 1;
+}
+
+a.claymore:hover{
+    color: #b6b6b6;
+    position: relative;
+}
+a.claymore:hover:after {
+    content: url(https://i.imgur.com/2WG4zbL.jpg);
+    display: block;
+    position: absolute;
+    
+     
+    z-index: 1;
+}
+
+a.spawn:hover{
+    color: #b6b6b6;
+    position: relative;
+}
+a.spawn:hover:after {
+    content: url(https://i.imgur.com/j9fC9xM.jpg);
+    display: block;
+    position: absolute;
+    
+     
+    z-index: 1;
+}
+
+a.thermhole:hover{
+    color: #b6b6b6;
+    position: relative;
+}
+a.thermhole:hover:after {
+    content: url(https://i.imgur.com/FVhD73w.jpg);
+    display: block;
+    position: absolute;
+    
+     
+    z-index: 1;
+}
+
+a.jackaljam:hover{
+    color: #b6b6b6;
+    position: relative;
+}
+a.jackaljam:hover:after {
+    content: url(https://i.imgur.com/7yjxfhL.jpg);
+    display: block;
+    position: absolute;
+    
+     
+    z-index: 1;
+}
+
+a.capfire:hover{
+    color: #b6b6b6;
+    position: relative;
+}
+a.capfire:hover:after {
+    content: url(https://i.imgur.com/z06SU20.jpg);
+    display: block;
+    position: absolute;
+    
+     
+    z-index: 1;
+}
+a.capsmoke:hover{
+    color: #b6b6b6;
+    position: relative;
+}
+a.capsmoke:hover:after {
+    content: url(https://i.imgur.com/lZmDxiB.jpg);
+    display: block;
+    position: absolute;
+    
+     
+    z-index: 1;
+}
+a.blitzstand:hover{
+    color: #b6b6b6;
+    position: relative;
+}
+a.blitzstand:hover:after {
+    content: url(https://i.imgur.com/U0uSzu5.jpg);
+    display: block;
+    position: absolute;
+    
+     
+    z-index: 1;
+}
+a.yingflash:hover{
+    color: #b6b6b6;
+    position: relative;
+}
+a.yingflash:hover:after {
+    content: url(https://i.imgur.com/cV7hpRg.jpg);
+    display: block;
+    position: absolute;
+    
+     
+    z-index: 1;
+}
+a.jackaldmg:hover{
+    color: #b6b6b6;
+    position: relative;
+}
+a.jackaldmg:hover:after {
+    content: url(https://i.imgur.com/I1R7YXa.jpg);
+    display: block;
+    position: absolute;
+    
+     
+    z-index: 1;
+}
+a.rep2:hover{
+    color: #b6b6b6;
+    position: relative;
+}
+a.rep2:hover:after {
+    content: url(https://i.imgur.com/2oazSpu.jpg);
+    display: block;
+    position: absolute;
+    
+     
+    z-index: 1;
+}
+a.rep1:hover{
+    color: #b6b6b6;
+    position: relative;
+}
+a.rep1:hover:after {
+    content: url(https://i.imgur.com/nG0Fshg.jpg);
+    display: block;
+    position: absolute;
+    
+     
+    z-index: 1;
+}
+a.twitchdrone:hover{
+    color: #b6b6b6;
+    position: relative;
+}
+a.twitchdrone:hover:after {
+    content: url(https://i.imgur.com/ymGYbfr.jpg);
+    display: block;
+    position: absolute;
+    
+     
+    z-index: 1;
+}
+
+
+a:link{
+    color:rgba(0, 0, 0, 0);
+}
+a:visited{
+    color:rgba(0, 0, 0, 0);
+}
+a:hover{
+    color:rgba(0, 0, 0, 0);
+}
+a:active{
+    color:rgba(0, 0, 0, 0);
+}   
+@media screen and (min-width: 900px) {
+    img{
+        max-width: 100%;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    img{
+        max-width: 100%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    img{
+        max-width: 100%;
+    }
+}
+
+@media screen and (min-width: 320px) {
+    img{
+        max-width: 100%;
+    }
+}
+
+#navlist{
+    padding: 3px 0;
+    font: bold 12px Verdana, sans-serif;
+    text-align: center;
+}
+
+#navlist li{
+    list-style: none;
+    display: inline-block;
+    font-family: Helvetica;
+    font-size: 17px;
+}
+
+#navlist li a{
+    padding: 3px 0.5em;
+    margin-left: 3px;
+    border: 1px solid black;
+    background-color: lightgray;
+    text-decoration: none;
+}
+
+#navlist li a:link{ 
+    color: #4a4948; 
+}
+#navlist li a:visited{
+    color: #4a4948;
+}
+
+#navlist li a:hover{
+    color: black;
+    background-color: lightgray;
+    border-color: black;
+    text-decoration: underline; 
+}
+
+#navlist li a#current{
+    background-color: white;
+    border-bottom: 1px solid white;
+    border: 1px solid black;
+}

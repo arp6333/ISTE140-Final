@@ -1,0 +1,172 @@
+body{
+    background-image: url("https://i.imgur.com/ruS9FpG.jpg");
+    background-color: black;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow-y: auto;
+}
+h2.home{
+    border-radius: 10px;
+    font-family: Arial;
+    color: white; 
+    text-decoration: none;
+    font-weight: normal;
+    top: 20px;
+    text-align: justify;
+    position: absolute;
+    padding: 5px;
+    font-size: 25px;
+    border: 3px solid white;
+}
+h2.top{
+    bottom: 0;
+    right: 0;
+    border-radius: 10px;
+    font-family: Arial;
+    color: white; 
+    text-decoration: none;
+    font-weight: normal;
+    text-align: justify;
+    position: fixed;
+    padding: 5px;
+    font-size: 25px;
+    border: 1px solid black;
+    background-color: black;
+    opacity: .5;
+}
+h2.top:hover{
+    opacity: 1;
+}
+.hangingindent {
+  padding-left: 22px ;
+  text-indent: -22px ;
+}
+h2.home:hover{
+    color: #b6b6b6;
+    padding: 5px;
+    border: 3px solid #b6b6b6;
+}
+a:link{
+    color: white;
+    text-decoration: none;
+}
+a:visited{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: white;
+}
+
+a:active{
+    color: white;
+    text-decoration: none;
+}
+a.line:link{
+    color: white;
+    text-decoration: none;
+}
+a.line:visited{
+    color: white;
+}
+a.line:hover{
+    color: #b6b6b6;
+}
+a.line:active{
+    color: #a0a0a0;
+}
+
+a.floor:hover{
+    color: #b6b6b6;
+    position: relative;
+}
+a.floor:hover:after {
+    content: url(https://i.imgur.com/MvX1Djm.jpg);
+    display: block;
+    position: absolute;
+    z-index: 1;
+}
+a.wall:hover{
+    color: #b6b6b6;
+    position: relative;
+}
+a.wall:hover:after {
+    content: url(https://i.imgur.com/qZMEve4.jpg);
+    display: block;
+    position: absolute;
+    z-index: 1;
+}
+a.window:hover{
+    color: #b6b6b6;
+    position: relative;
+}
+a.window:hover:after {
+    content: url(https://i.imgur.com/dc8Xh4H.jpg);
+    display: block;
+    position: absolute; 
+    z-index: 1;
+}
+a.door:hover{
+    color: #b6b6b6;
+    position: relative;
+}
+a.door:hover:after {
+    content: url(https://i.imgur.com/Cr39FUc.jpg);
+    display: block;
+    position: absolute; 
+    z-index: 1;
+}
+img{
+    padding-bottom: 20px;
+}
+h1{
+    color:white;
+    font-family: Helvetica;
+    font-size: 50px;
+    text-align: center;
+    margin-top: -10px;
+    margin-bottom: -4px;
+}
+h2{
+    color:white;
+    font-family: Arial;
+    font-size: 40px;
+    text-align: center;
+    margin-top: -10px;
+    margin-bottom: 5px;
+}
+
+p{
+    font-size: 20px;
+    color: white;
+    font-family: Helvetica;
+    padding-bottom: 35px;
+    border-radius: 20px;
+    border: 2px solid white;
+    padding: 20px; 
+}
+
+
+@media screen and (min-width: 900px) {
+    img{
+        max-width: 100%;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    img{
+        max-width: 100%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    img{
+        max-width: 100%;
+    }
+}
+
+@media screen and (min-width: 320px) {
+    img{
+        max-width: 100%;
+    }
+}

@@ -1,0 +1,297 @@
+body{
+    background-image: url("https://i.imgur.com/ruS9FpG.jpg");
+    background-color: black;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow-y: auto;
+}
+
+div.left{
+    float:left;
+    padding-bottom: 20px;
+    max-width:50%;
+    margin-top: -34px;
+    border: none;
+    width: auto;
+    height: auto;
+    border: none;
+}
+
+div.right{
+    float:right;
+    padding-bottom: 20px;
+    max-width:50%;
+    margin-top: -43px;
+    border: none;
+    width: auto;
+    height: auto;
+    border: none;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: black;
+}
+
+figure{
+    display: table;
+    padding-right: 10px;
+    
+}
+
+figcaption {
+    display: table-caption;
+    caption-side: top;
+    padding-bottom: 35px;
+    border-radius: 20px;
+    border: 2px solid white;
+    padding: 20px; 
+}
+
+img.dv{
+    width: auto;
+    height: auto;
+    border: none;
+}
+
+.container:hover .overlay {
+    opacity: .8;
+    width: 100%;
+}
+
+.text {
+    color: white;
+    font-size: 70px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+a.dv:link{
+    color: #b2b2b2;
+    text-decoration: none;
+}
+
+a.dv:visited{
+    color: #999999;
+}
+
+a.dv:hover{
+    color: white;
+}
+
+a.dv:active{
+    color: #a0a0a0;
+}
+
+a:link{
+    color: #b2b2b2;
+    text-decoration: none;
+}
+
+a:visited{
+    color: #999999;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #b6b6b6;
+    text-decoration: underline;
+}
+
+a:active{
+    color: #a0a0a0;
+    text-decoration: none;
+}
+
+a.line:link{
+    color: #b2b2b2;
+    text-decoration: none;
+}
+
+a.line:visited{
+    color: #999999;
+}
+
+a.line:hover{
+    color: #b6b6b6;
+}
+
+a.line:active{
+    color: #a0a0a0;
+}
+
+h1{
+    color:white;
+    font-family: Helvetica;
+    font-size: 50px;
+}
+
+p.noformat{
+    font-size: 20px;
+    color: White;
+    font-family: Helvetica;
+    float: right;
+    width: 60%;
+    border: none;
+}
+
+p.video{
+    font-size: 20px;
+    text-align: center;
+    color: White;
+    font-family: Helvetica;
+    border: none;
+}
+
+p.borderless{
+    font-size: 20px;
+    color: white;
+    font-family: Helvetica;
+    float: left;
+    clear:right;
+    border: none;
+    width: 55%;
+}
+
+p{
+    font-size: 20px;
+    color: white;
+    font-family: Helvetica;
+    float: left;
+    clear:right;
+    width: 55%;
+    padding-bottom: 35px;
+    border-radius: 20px;
+    border: 2px solid white;
+    padding: 20px; 
+}
+
+a.disable:hover{
+    color: #b6b6b6;
+    position: relative;
+    text-decoration: none;
+}
+
+a.disable:hover:after {
+    content: url(https://i.imgur.com/BsBKcb9.jpg);
+    display: block;
+    position: absolute;
+    z-index: 1;
+    text-decoration: none;
+}
+
+a.plant:hover{
+    color: #b6b6b6;
+    position: relative;
+    text-decoration: none;
+}
+
+a.plant:hover:after {
+    content: url(https://i.imgur.com/iFtTPIT.jpg);
+    display: block;
+    position: absolute;
+    z-index: 1;
+    text-decoration: none;
+}
+
+a.hostagecarry:hover{
+    color: #b6b6b6;
+    position: relative;
+    text-decoration: none;
+}
+
+a.hostagecarry:hover:after {
+    content: url(https://i.imgur.com/ErDOcxl.jpg);
+    display: block;
+    position: absolute;
+    text-decoration: none;
+    z-index: 1;
+}
+
+a.stagger:hover{
+    color: #b6b6b6;
+    position: relative;
+    text-decoration: none;
+}
+
+a.stagger:hover:after {
+    content: url(https://i.imgur.com/3oPzk6e.jpg);
+    display: block;
+    position: absolute;
+    text-decoration: none;
+    z-index: 1;
+}
+
+a.bleedout:hover{
+    color: #b6b6b6;
+    position: relative;
+    text-decoration: none;
+}
+
+a.bleedout:hover:after {
+    content: url(https://i.imgur.com/objxNUm.jpg);
+    display: block;
+    position: absolute;
+    text-decoration: none;
+    z-index: 1;
+}
+
+a.downed:hover{
+    color: #b6b6b6;
+    position: relative;
+    text-decoration: none;
+}
+
+a.downed:hover:after {
+    content: url(https://i.imgur.com/HN1Wc2H.jpg);
+    display: block;
+    position: absolute;
+    text-decoration: none;
+    z-index: 1;
+}
+
+img.right{
+    float: right;
+    width: 35%;
+}
+
+
+@media screen and (min-width: 900px) {
+    img{
+        max-width: 100%;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    img{
+        max-width: 100%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    img{
+        max-width: 100%;
+    }
+}
+
+@media screen and (min-width: 320px) {
+    img{
+        max-width: 100%;
+    }
+}
